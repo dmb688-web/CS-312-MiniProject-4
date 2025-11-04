@@ -1,0 +1,62 @@
+﻿body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.post-card {
+  transition: transform 0.2s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.post-meta {
+  color: #0F5132;
+  font-size: 0.9rem;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #017964 0%, #0F5132 100%);
+  color: white;
+  padding: 4rem 0;
+  margin-bottom: 3rem;
+}
+
+.auth-page {
+  background: linear-gradient(135deg, #017964 0%, #0F5132 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.auth-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.form-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 2rem;
+}
+
+.post-content {
+  white-space: pre-line;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
